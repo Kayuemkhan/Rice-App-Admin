@@ -56,18 +56,7 @@
 
     </LinearLayout>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@id/admin_logout_btn"
-        android:layout_marginRight="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginBottom="10dp"
-        android:id="@+id/check_orders_btn"
-        android:background="@color/colorPrimaryDark"
-        android:text="C H E C K  N E W  O R D E R S"
 
-        />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

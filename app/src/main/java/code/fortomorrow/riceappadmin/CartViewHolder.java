@@ -10,7 +10,7 @@ import code.fortomorrow.riceappadmin.Interface.ItemClickListner;
 
 
 public class CartViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
-    public TextView txtProductName, txtProductPrice,txtProductQuantity;
+    public TextView txtProductName, txtProductPrice,txtProductQuantity,txtProductDescription;
     private ItemClickListner itemClickListner;
 
     public CartViewHolder(@NonNull View itemView) {
@@ -18,7 +18,7 @@ public class CartViewHolder extends RecyclerView.ViewHolder implements View.OnCl
         txtProductName = itemView.findViewById(R.id.cart_product_name);
         txtProductPrice =itemView.findViewById(R.id.cart_product_price);
         txtProductQuantity = itemView.findViewById(R.id.cart_product_quantity);
-
+        txtProductDescription = itemView.findViewById(R.id.cart_product_address);
     }
 
     @Override

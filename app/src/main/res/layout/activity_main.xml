@@ -88,7 +88,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginBottom="20dp"
         android:id="@+id/admin_logout_btn_new_rice"
-        android:background="@color/colorPrimaryDark"
+        android:background="#407294"
         android:text="L O G  O U T "
         android:textColor="@android:color/white"
         />

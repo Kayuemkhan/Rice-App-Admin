@@ -22,7 +22,6 @@ public class NewRiceCategoryAdd extends AppCompatActivity {
         setContentView(R.layout.activity_new_rice_category_add);
 
         LogoutBtn = findViewById(R.id.admin_logout_btn);
-        CheckOrdersBtn = findViewById(R.id.check_orders_btn);
 
         LogoutBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -36,14 +35,7 @@ public class NewRiceCategoryAdd extends AppCompatActivity {
 
             }
         });
-        CheckOrdersBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // Intent intent = new Intent(getApplicationContext(),AdminNewOrdersActivity.class);
-                // startActivity(intent);
 
-            }
-        });
         najirshal = findViewById(R.id.t_shirts);
         minikate =  findViewById(R.id.sports_t_shirts);
         br28 =  findViewById(R.id.female_dresses);
