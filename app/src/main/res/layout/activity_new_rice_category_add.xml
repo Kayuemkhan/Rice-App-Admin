@@ -29,7 +29,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="100dp"
-            android:src="@drawable/najirshalO"
+            android:src="@drawable/najirshalo"
             android:id="@+id/t_shirts"
             android:textAlignment="center"
             android:layout_gravity="center"

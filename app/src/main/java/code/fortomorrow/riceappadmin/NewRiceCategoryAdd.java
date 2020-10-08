@@ -8,6 +8,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
+import code.fortomorrow.riceappadmin.Prevalent.Prevalent;
+import io.paperdb.Paper;
+
 public class NewRiceCategoryAdd extends AppCompatActivity {
     private ImageView najirshal, minikate, br28;
 
@@ -24,10 +27,13 @@ public class NewRiceCategoryAdd extends AppCompatActivity {
         LogoutBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Paper.book().write(Prevalent.UserPhoneKey,"");
+                Paper.book().write(Prevalent.UserPasswordKey,"");
                 Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
                 intent.addFlags(intent.FLAG_ACTIVITY_CLEAR_TASK | intent.FLAG_ACTIVITY_CLEAR_TASK);
                 startActivity(intent);
                 finish();
+
             }
         });
         CheckOrdersBtn.setOnClickListener(new View.OnClickListener() {
