@@ -17,7 +17,6 @@
             android:text="Name: "
             android:id="@+id/sample22"
             android:textColor="@color/White"
-            android:fontFamily="@font/aclonica"
             android:textSize="15sp"
             />
         <TextView
@@ -38,7 +37,6 @@
             android:text="Phone Number: "
             android:id="@+id/sample222"
             android:textColor="@color/White"
-            android:fontFamily="@font/aclonica"
             android:textSize="15sp"
             />
         <TextView
@@ -61,7 +59,6 @@
             android:text="Total Price: "
             android:id="@+id/sample2222"
             android:textColor="@color/White"
-            android:fontFamily="@font/aclonica"
             android:textSize="15sp"
             android:layout_below="@+id/order_phone_number"
             />
@@ -84,7 +81,6 @@
             android:text="Address City: "
             android:id="@+id/sample22222"
             android:textColor="@color/White"
-            android:fontFamily="@font/aclonica"
             android:textSize="15sp"
             android:layout_below="@+id/order_total_price"
             />
@@ -107,7 +103,6 @@
             android:text="Date and Time: "
             android:id="@+id/sample222222"
             android:textColor="@color/White"
-            android:fontFamily="@font/aclonica"
             android:textSize="15sp"
             android:layout_below="@+id/order_address_city"
             />

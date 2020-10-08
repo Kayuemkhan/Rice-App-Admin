@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(getApplicationContext(),NewRiceCategoryAdd.class));
     }
     public void add_medicine_admin(View v){
-        startActivity(new Intent(getApplicationContext(),NewRiceCategoryAdd.class));
+        startActivity(new Intent(getApplicationContext(),AdminNewOrdersActivity.class));
     }
 
 
