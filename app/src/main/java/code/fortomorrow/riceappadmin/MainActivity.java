@@ -38,6 +38,9 @@ public class MainActivity extends AppCompatActivity {
     public void add_blog_admin(View v){
         startActivity(new Intent(getApplicationContext(),NewRiceCategoryAdd.class));
     }
+    public void add_medicine_admin(View v){
+        startActivity(new Intent(getApplicationContext(),NewRiceCategoryAdd.class));
+    }
 
 
 }

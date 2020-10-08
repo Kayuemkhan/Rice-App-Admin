@@ -51,6 +51,7 @@
         android:layout_margin="15dp"
         app:cardBackgroundColor="@color/cardview_light_background"
         android:id="@+id/add_medicine_admin"
+        android:onClick="add_medicine_admin"
         >
         <LinearLayout
             android:layout_width="match_parent"
