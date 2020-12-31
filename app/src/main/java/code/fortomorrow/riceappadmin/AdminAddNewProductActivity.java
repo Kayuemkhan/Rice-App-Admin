@@ -33,7 +33,7 @@ public class AdminAddNewProductActivity extends AppCompatActivity {
     private String CategoryName, Description, Price, Pname, saveCurrentDate, saveCurrentTime;
     private Button AddNewProductButton;
     private ImageView InputProductImage;
-    private EditText InputProductName, InputProductDescription, InputProductPrice, product_;
+    private EditText InputProductName, InputProductDescription, InputProductPrice, product_category;
     private static final int GalleryPick = 1;
     private Uri ImageUri;
     private String productRandomKey, downloadImageUrl;
@@ -58,6 +58,9 @@ public class AdminAddNewProductActivity extends AppCompatActivity {
         InputProductName = (EditText) findViewById(R.id.product_name);
         InputProductDescription = (EditText) findViewById(R.id.product_description);
         InputProductPrice = (EditText) findViewById(R.id.product_price);
+        product_category = findViewById(R.id.product_category);
+
+        product_category.setText(CategoryName);
         loadingBar = new ProgressDialog(this);
 
 
