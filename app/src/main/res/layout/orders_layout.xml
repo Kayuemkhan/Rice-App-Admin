@@ -30,7 +30,6 @@
                 android:textSize="15sp"/>
 
             <TextView
-                android:layout_toRightOf="@+id/sample22"
                 android:id="@+id/order_user_name"
                 android:layout_width="160dp"
                 android:layout_height="wrap_content"
@@ -49,7 +48,6 @@
             android:orientation="horizontal">
 
             <TextView
-                android:layout_below="@+id/order_user_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Phone Number: "
@@ -58,8 +56,6 @@
                 android:textSize="15sp" />
 
             <TextView
-                android:layout_below="@+id/order_user_name"
-                android:layout_toRightOf="@+id/sample222"
                 android:id="@+id/order_phone_number"
                 android:layout_width="160dp"
                 android:layout_height="wrap_content"
@@ -84,14 +80,11 @@
                 android:text="Total Price: "
                 android:id="@+id/sample2222"
                 android:textColor="@color/Black"
-                android:textSize="15sp"
-                android:layout_below="@+id/order_phone_number" />
+                android:textSize="15sp" />
 
             <TextView
-                android:layout_toRightOf="@+id/sample2222"
                 android:id="@+id/order_total_price"
                 android:layout_width="match_parent"
-                android:layout_below="@+id/order_phone_number"
                 android:layout_height="wrap_content"
                 android:text="Total Price"
                 android:textSize="15dp"
@@ -113,15 +106,12 @@
                 android:text="Address City: "
                 android:id="@+id/sample22222"
                 android:textColor="@color/Black"
-                android:textSize="15sp"
-                android:layout_below="@+id/order_total_price" />
+                android:textSize="15sp" />
 
 
             <TextView
-                android:layout_toRightOf="@+id/sample22222"
                 android:id="@+id/order_address_city"
                 android:layout_width="match_parent"
-                android:layout_below="@+id/order_total_price"
                 android:layout_height="wrap_content"
                 android:text="Adress City"
                 android:textColor="@color/Black"
@@ -144,13 +134,10 @@
                 android:id="@+id/sample222222"
                 android:textColor="@color/Black"
                 android:textSize="15sp"
-                android:layout_below="@+id/order_address_city"
                 />
             <TextView
-                android:layout_toRightOf="@+id/sample222222"
                 android:id="@+id/order_date_time"
                 android:layout_width="match_parent"
-                android:layout_below="@+id/order_address_city"
                 android:layout_height="wrap_content"
                 android:text="Date Time"
                 android:textSize="15dp"
